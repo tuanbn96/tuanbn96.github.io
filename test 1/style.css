@@ -1,0 +1,59 @@
+body{
+	background-color: gray;
+}
+.home{
+	width: 720px;
+	margin: auto;
+	box-sizing: border-box;
+	background-color: #f8f9fa;
+}
+a{
+	text-decoration: none;
+}
+.chim{
+	width: 480px;
+	margin: 20px;
+}
+.chim img{
+	width: 100%;
+	border: 1px solid red;
+}
+.chim img:hover{
+	transform: scale(0.8);
+	border: 2px solid blue;
+	border-radius: 10px;
+	transition: all 1s;
+	animation: bo 2s ease infinite;
+}
+@keyframes bo{
+	10%{
+		border: 1px solid hidden;
+	}
+	20%{
+		border: 3px solid blue;
+	}
+	30%{
+		border: 1px solid hidden;
+	}
+	40%{
+		border: 3px solid #0eec67;
+	}
+	50%{
+		border: 1px solid hidden;
+	}
+	60%{
+		border: 3px solid green;
+	}
+	70%{
+		border: 1px solid hidden;
+	}
+	80%{
+		border: 3px solid #04f1fd;
+	}
+	90%{
+		border: 1px solid hidden;
+	}
+	100%{
+		border: 3px solid #caec0e;
+	}
+}
