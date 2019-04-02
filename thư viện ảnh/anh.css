@@ -1,0 +1,130 @@
+body{
+	max-width: 1024px;
+	align-content: center;
+}
+.body{
+	
+	margin:0;
+	padding: 0;
+	font-family: 'georgia',serif;
+	box-sizing: border-box;
+	
+}
+a{
+	text-decoration: none;
+}
+
+.banner{
+	background-image: url('banner2.png');
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	
+}
+.avata{
+	position: absolute;
+	top:-180px;
+	left: 120px;
+}
+.avata img{
+	max-width: 200px;
+	border-radius: 50%;
+	
+
+
+}
+.navg{
+	text-align: center;
+	padding: 10px;
+	background-color: #FDF5E6;
+	position: relative;
+}
+
+.ul li{
+	list-style-type: none;
+	
+	display: inline;
+	margin: 30px;
+	padding: 15px;
+	
+}
+.anh{
+	
+	margin:10px;
+	padding: 10px;
+}
+.girl{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	border: 1px double red;
+	
+	
+}
+.girl li a img{
+	max-width: 300px;
+	margin:10px;
+	padding right: 10px;
+	border: 1px double blue;
+	box-sizing: border-box;
+	transition: all 1s;
+	
+
+
+
+}
+.girl li a div img:hover{
+	border: 3px solid green;
+	
+	
+}
+.girl li a div{
+	transition: all 1s;
+}
+#d21:hover{
+	transform: translate(10px,10px);
+}
+#d22:hover{
+	transform: translateY(20px);
+}
+#d13:hover{
+	transform: translate(-10px,-10px);
+}
+#d14:hover{
+	transform: scale(0.7);
+}
+#d15:hover{
+	transform: scale(1.1);
+}
+#d16:hover{
+	transform: rotate(30deg);
+}
+#d17:hover{
+	transform: rotate(180deg);
+}
+#d18:hover{
+	transform: rotateZ(30deg);
+}
+#d19:hover{
+	transform: rotateX(30deg);
+}
+#d20:hover{
+	transform: translateX(20px);
+}
+#d11:hover{
+	transform: rotateY(30deg);
+}
+#d10:hover{
+	transform: translate(-20px,-10px);
+}
+#d12:hover{
+	transform: rotate(180deg);
+}
+
+.icon{
+	max-width: 30px;
+	position: fixed;
+	left: 1024px;
+	bottom: 10px;
+}
+

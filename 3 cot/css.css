@@ -1,0 +1,311 @@
+
+.body{
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	box-sizing: border-box;
+}
+.header{
+	display: flex;
+	
+	top: 0;
+	width: 100%;
+	height: 40px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid gray;
+	background-color: #dae0da;
+
+
+	
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	display: flex;
+
+
+}
+@keyframes logo{
+	10%{
+		color:#1c2cd6ba;
+
+	}
+	20%{
+		color: #1cd6cbf5;
+	}
+	30%{
+		color: #ec4d65a8;
+	}
+	40%{
+		color: #ece54d;
+	}
+	50%{
+		color: #88f709;
+	}
+	60%{
+		color: #098cf7;
+	}
+	70%{
+		color: #2009f7;
+	}
+	90%{
+		color: #f70990;
+	}
+	100%{
+		color: #93f70930;
+	}
+}
+.logo div a span{
+	color: black;
+	font-style: italic;
+	font-size: 25px;
+	margin: 10px;
+	padding-top: 10px;
+	animation: logo 10s ease infinite;
+}
+.nav{
+	display: flex;
+	justify-content: flex-end;
+}
+.nav #gg{
+	padding-left: 300px;
+}
+.navg li{
+	display: inline;
+	margin: 20px;
+}
+.content{
+	
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	box-sizing: border-box;
+	margin: auto;
+	width: 900px;
+	margin-top: 80px;
+	
+
+
+
+}
+.title{
+	border-bottom: 1px solid blue;
+	height: 20px;
+	padding-top: 10px;
+}
+.hot{
+	display: flex;
+	height: 300px;
+	margin-top: 30px;
+	border: 3px solid red;
+	border-radius: 10px;
+	padding: 10px;
+	
+	animation: bo 20s ease infinite; 
+
+}
+@keyframes bo{
+	10%{
+		border: 1px solid hidden;
+	}
+	20%{
+		border: 3px solid blue;
+	}
+	30%{
+		border: 1px solid hidden;
+	}
+	40%{
+		border: 3px solid #0eec67;
+	}
+	50%{
+		border: 1px solid hidden;
+	}
+	60%{
+		border: 3px solid green;
+	}
+	70%{
+		border: 1px solid hidden;
+	}
+	80%{
+		border: 3px solid #04f1fd;
+	}
+	90%{
+		border: 1px solid hidden;
+	}
+	100%{
+		border: 3px solid #caec0e;
+	}
+}
+.d1{
+	width: 70%;
+	background-image: url('fb1.png');
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	border: 3px solid hidden;
+	border-radius: 10px;
+	font-style: italic ;
+	font-size: 30px;
+	position: relative;
+
+}
+.hot1{
+	padding: 30px;
+}
+.hot1 span{
+	font-size: 45px;
+	animation: logo 1s ease infinite;
+	box-sizing: border-box;
+
+}
+.hot2{
+	position: absolute;
+	bottom: 10px;
+}
+.d2{
+	height: 100%;
+	width: 30%;
+	padding: 10px;
+	
+	
+}
+.d3{
+	height: 50%;
+	width: 100%;
+	background-image: url('dd.jpg');
+	background-size: cover;
+	background-position: right;
+	border: 3px solid hidden;
+	
+	position: relative;
+
+	
+}
+.hot4{
+	position: absolute;
+	bottom: 10px;
+	font-size: 23px;
+	font-style: italic;
+}
+.hot4 span{
+		color: white;
+
+}
+.hot4 span:hover{
+		color: red;
+
+}
+
+.d4{
+	height: 50%;
+	width: 100%;
+	background-image: url('112.jpg');
+	background-size: cover;
+	background-position: top;
+	border: 3px solid hidden;
+	
+	position: relative;
+	
+}
+.hot5{
+	position: absolute;
+	bottom: 10px;
+	font-size: 23px;
+	font-style: italic;
+}
+.hot5 span{
+		color: white;
+
+}
+.hot5 span:hover{
+		color: red;
+
+}
+.scandal{
+	margin-top: 30px;
+	border: 3px solid white;
+	
+	padding: 10px;
+	
+	animation: bo 30s ease infinite; 
+
+
+}
+.scd{
+	display: flex;
+	margin-top: 20px;
+
+
+	
+}
+.scd1{
+	width: 30%;
+	height: 350px;
+	flex-grow: 1;
+	
+	border: 3px solid white;
+	
+	position: relative;
+
+}
+.scd2{
+	position: absolute;
+	bottom: 10px;
+	font-size: 25px;
+	font-style: italic;
+	transition: all 2s;
+}
+.scd2 span{
+	color: white;
+}
+.scd2 span:hover{
+		color: red;
+
+}
+#a1{
+	background-image: url('lq.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+#a2{
+	background-image: url('tc.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+#a3{
+	background-image: url('fb1.png');
+	background-size: cover;
+	background-position: center;
+	
+}
+#a4{
+	background-image: url('xe.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+#a5{
+	background-image: url('hit.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+#a6{
+	background-image: url('bieutinh.jpeg');
+	background-size: cover;
+	background-position: center;
+	
+}
+.footer{
+	border: 3px solid white;
+	height: 100px;
+	position: relative;
+	margin-top: 30px;
+
+
+}
+
+

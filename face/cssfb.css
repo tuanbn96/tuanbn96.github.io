@@ -1,0 +1,190 @@
+body{
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	box-sizing: border-box;
+}
+.header{
+	background-color: #405e9b;
+	max-height: 85px;
+
+	
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.benner{
+	display: flex;
+	max-width: 980px;
+	margin: auto;
+	position: relative;
+	padding-top: 13px;
+
+}
+.than{
+	display: flex;
+}
+.dk{
+	width: 400px;
+	height: 426px;
+}
+.logo{
+	max-width: 170px;
+	height: 34px;
+	padding-bottom: 30px;
+	margin: 20px;
+	font-family: inherit;
+	font-size: 42px;
+	background-position: 0 0;
+	transition: all 0.5s;
+
+
+	
+	
+
+}
+.dangnhap span{
+	color: white;
+}
+.logo a span{
+	color: white;
+}
+.dangnhap{
+	position: absolute;
+	right: 0;
+
+	
+	
+}
+.dangnhap button{
+	background-color: #405e9b;
+	border: 0.5px solid #4b4f56;
+	font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.dangnhap button:hover{
+	background-color: #264b98
+
+}
+#rel{
+	opacity: 0.5;
+	color: white;
+}
+.than{
+	height: 551px;
+	margin-left: 15%;
+	margin-top: 40px;
+}
+.cot1 span{
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.dk1{
+	padding-bottom: 10px;
+
+
+
+}
+.dk1 input{
+	height: 35px;
+	border: 1px solid #ECF3FF;
+	border-radius: 5px;
+
+}
+#dd1{
+		margin-bottom: 20px;
+
+}
+#d11{
+	
+	position: relative;
+
+}
+
+#d13{
+	position: absolute;
+	right: 0;
+}
+.cot2{
+
+	padding-bottom: 10px;
+}
+.he{
+	
+}
+#s1{
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+#s2{
+	padding-bottom: 20px;
+}
+.k5k5{
+	display: flex;
+	position: relative;
+	padding-bottom: 10px;
+}
+.mtm{
+	padding-bottom: 10px;
+}
+
+.k6{
+	width: 180px;
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+}
+#cuoi{
+	font-size: 12px;
+	color: gray;
+}
+#but1{
+	background-color: #5e994b;
+	width: 192px;
+	height: 35px;
+	border: 1px solid  #5e994b;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0,0 ,0,0.5);
+}
+#but1:hover{
+	background-color: #559a3b;
+	
+}
+.ft{
+	background-color: white;
+}
+.footer{
+	
+	margin-left: 15%;
+	width: 980px;
+	padding-top: 50px;
+	font-size: 13px;
+	
+	
+}
+.link1 ul li{
+	display: inline;
+	margin: 3px;
+	margin-left: 0;
+
+}
+.link2 ul li{
+	display: inline;
+	margin: 3px;
+	margin-left: 0;
+}
+.t1{
+	padding-left: 40px;
+}
+.footer span{
+	color: gray;
+}
