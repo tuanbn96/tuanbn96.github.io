@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <table id="table1"></table>
+    <script>
+        let students = [
+            {name:'Nguyên Văn Tuân', age:23, sex:'male', phoneNumber:'0368892848',avata:'img/11.jpg',mail:'abc12345@gmail.com'},
+            {name:'Nguyên Anh Thư', age:21, sex:'female', phoneNumber:'0468892848',avata:'img/12.jpg',mail:'gggfdg45@yahoo.com'},
+            {name:'Nguyên Anh Tú', age:20, sex:'male', phoneNumber:'0868592888',avata:'img/13.jpg',mail:'hhhhhf45@gmail.com'},
+            {name:'Nguyên Thị Vân', age:20, sex:'female', phoneNumber:'0868894444',avata:'img/14.jpg',mail:'sad45@gmail.com'},
+            {name:'Nguyên thị Hương', age:19, sex:'female', phoneNumber:'086889555',avata:'img/15.jpg',mail:'ab345@gmail.com'},
+            {name:'Nguyên Văn Doanh', age:19, sex:'male', phoneNumber:'0868896666',avata:'img/16.jpg',mail:'abc345@gmail.com'},
+            {name:'Nguyên Y Vân', age:18, sex:'female', phoneNumber:'0868897777',avata:'img/17.jpg',mail:'c12345@gmail.com'},
+            {name:'Nguyên Hải Huân', age:22, sex:'male', phoneNumber:'0868898888',avata:'img/18.jpg',mail:'a12345@gmail.com'},
+            {name:'Nguyên Văn Thuận', age:19, sex:'male', phoneNumber:'0868899999',avata:'img/19.jpg',mail:'ab2345@gmail.com'},
+            {name:'Lê Dung Sai', age:21, sex:'male', phoneNumber:'0868890000',avata:'img/12.jpg',mail:'abc125@gmail.com'},
+            {name:'Hoàng Yến Xuân', age:20, sex:'female', phoneNumber:'0800092848',avata:'img/13.jpg',mail:'abc145@gmail.com'},
+            {name:'Nguyên Phi Yến', age:21, sex:'female', phoneNumber:'0888888888',avata:'img/14.jpg',mail:'ab345@gmail.com'},
+            {name:'Nguyên Văn Tân', age:18, sex:'male', phoneNumber:'0909090909',avata:'img/15.jpg',mail:'c1345@gmail.com'}
+        ];
+            
+        document.getElementById('table1').innerHTML = "<tr><td><div><img src='img/he.png' alt = 'anh' width = '40px' height = '40px'></div></td><td>Họ và tên<select id='sl0'>filter<option value='all'>all</option><option value='ABC'>ABC</option></select></td><td>Tuổi<select id='sl1'>filter<option value='all'>all</option><option value='max'>^</option><option value= '18'>18</option><option value='19'>19</option><option value='20'>20</option><option value='21'>21</option><option value='22'>22</option><option value='23'>23</option></select></td><td>Giới tính<select id='sl2'>filter<option value='all'>all</option><option value='male'>male</option><option value = 'female'>female</option></select></td><td>Số điện thoại</td></td><td>Email</td></tr>";
+        let agefilter = document.getElementById('sl1');
+        agefilter.addEventListener('change', onfilter );
+        function onfilter(){
+            let selectAge = parseInt(agefilter.value);
+           let filterStudent = students.filter(function(student){
+                return student.age === selectAge;
+          });
+          render(filterStudent);
+        }
+
+        function render(students){
+            let data = document.getElementById('table1');
+            let value ='';
+            for (const i of students) {
+            value += `<tr><td><div><img src=${i.avata} alt = 'anh' width = '40px' height = '40px'></div></td><td>${i.name}</td><td>${i.age}</td><td>${i.sex}</td><td>${i.phoneNumber}</td></td><td>${i.mail}</td></tr>`;
+            }
+            data.innerHTML = value;
+         }
+        render(students);
+    </script>
+</body>
+</html>

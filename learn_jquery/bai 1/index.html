@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>learn jquery</title>
+</head>
+<body>
+    <table>
+        <p><h1>Wanted death or live</h1></p><input type="text" id="fiterName" placeholder='Name or email or phone number' size="25"><button id="search">search</button>
+        <thead>
+            <tr>
+                <th>Avata</th>
+                <th>Họ tên<button id="sort">sort</button></th>
+                <th>Tuổi
+                    <select name="age" id="sl2">
+                        <option value="all">all</option>
+                        <option value="down">down</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </th>
+                <th>Giới tính
+                    <select name="sex" id="sl3">
+                        <option value="all">all</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </th>
+                <th>Số điện thoại</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="student"></tbody>
+    </table>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

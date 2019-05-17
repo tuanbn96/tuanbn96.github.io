@@ -7,6 +7,7 @@ function soLonThu2(x) {
 //bài 2
 function str(x) {
 	let a = [];
+	let b = [];
 	for (var i = 0; i < x.length; i++) {
 		a[i] = a.push(x[i].length);
 	}
@@ -14,9 +15,10 @@ function str(x) {
 	let c = a[0];
 	for (var i = 0; i < x.length; i++) {
 		if(x[i].length == c){
-			return x[i] ;
+			b.push(x[i]) ;
 		}
 	}
+	console.log(b);
 }
 
 
