@@ -128,6 +128,9 @@ $('#search').click(() => {
 addData(students);
 
 function style(){
+    $('th').css('height','50px');
+    $('th').css('padding','10px');
+    $('th').css('border','1px solid gray');
     $('table tr:even').css('background-color','#cde0ef');
     $('table tr:even').hover(function () {
         $(this).css('background-color','#9dcff7');    
