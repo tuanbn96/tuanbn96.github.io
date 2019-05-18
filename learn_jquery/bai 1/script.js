@@ -94,12 +94,18 @@ $('#search').click(() => {
        alert('text is full name or number');
    }
    if(c.length >= 10 && c.length <= 12){
+        if(typeof(parseFloat(c)) == 'number'){
         
-        let filter = students.filter(function (std) {
-        return std.phoneNumber == c;
-        });
-        addData(filter);
-        style();
+            let filter = students.filter(function (std) {
+            return std.phoneNumber == c;
+            });
+            addData(filter);
+            style();
+        }
+            alert('text is full name or number');
+            addData(students);
+            style();
+        
         
    }
    if(c.length > 12){
