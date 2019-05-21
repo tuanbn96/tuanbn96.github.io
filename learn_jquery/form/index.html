@@ -6,32 +6,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="dk">
-        <form action="wellcome.html" method="GET" id="form">
-            <div class="he">
-                <div id="s1"><span ><b>Đăng ký</b></span><br/></div>
-                <div id="s2"><span >Luôn miễn phí</span><br/></div>
-            </div>
-                    
-            <div class="dk1" id="d11">
-            <input type="text" name="họ" placeholder="Họ" id="firstName" style="width: 48%">
-            <input type="text" name="tên" placeholder="Tên" id="lastName" style="width: 48%"><p class="erroName"></p>
-            </div >
-            <div class="dk1">
-            <input type="text" name="Email" placeholder="Số di động hoạc email" style="width: 100%;" id="email"><p class="erroEmail"></p></div>
-            <div class="dk1"  id="dd1">
-            <input type="password" name="password" placeholder="Mật khẩu mới"  style="width: 100%;" id="pass"><p class="erropass"></p>
-            </div>
-            <p>Ngày sinh:</p>
-            <select name id="day"></select><select id="month"></select><select id="year"></select>
-            <label for="female"><input type="radio" name="gt" id="female">Nữ</label>
-            <label for="male"><input type="radio" name="gt" id="male">Nam<br/></label>
-            
-            <br/>
-            <span id="end">Bằng cách nhấp vào Đăng ký, bạn đồng ý với<a href="#"> Điều khoản, Chính sách dữ liệu</a> và<a href="#"> Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</span><br/><br/>
-            <input type="submit" value= 'dăng nhập' id="but1"/>
-        </form>
+    <div class="form" id="form">
+        <div class="cssform formSignUp">
+            <form action="wellcome.html" method="get">
+                <h1 class="h1">Create Aaccount</h1>
+               
+                <input type="text" name="firstname" id="fullname" placeholder="Full name" class="sizeIP"> <br /><br />
+
+                <input type="password" name="password" id="password" placeholder="Mật khẩu" class="sizeIP"> <br /><br />
+
+                <button type="submit" class="login">Sign up</button>
+            </form>
+        </div>
+        
     </div>
+    
     <script src="jquery-3.2.1.min.js"></script>
     <script src="script.js"></script>
 </body>

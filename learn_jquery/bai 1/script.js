@@ -89,8 +89,8 @@ function compareValues(key, order = 'asc') {
 
 
 $('#search').click(() => {
-   let c = $('#fiterName').val();
-   if(c == '' || c.length < 10 ){
+   let c = $('#fiterName').val().trim();
+   if(c.length > 1 && c.length < 10 ){
        alert('text is full name or number');
    }
    if(c.length >= 10 && c.length <= 12){
@@ -118,12 +118,6 @@ $('#search').click(() => {
        }
    }  
 });
-
-  
-  
-
-
-
 
 addData(students);
 

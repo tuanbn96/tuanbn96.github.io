@@ -1,1 +1,24 @@
-<h1>Đăng ký thành công</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <span>
+        <h1>Đăng ký thành công</h1>
+        <p id="check1"></p>
+    </span>
+    <script>
+       let str=decodeURIComponent(window.location.href);
+        let n = str.slice(str.indexOf("?") +1 );
+        let y = n.replace(/&/g, "<br>");
+         
+        let x= y.replace(/=/g, ": ");
+
+        let z = x.split('+');
+        console.log(z);
+        document.getElementById("check1").innerHTML = z; 
+    </script>
+</body>
+</html>
