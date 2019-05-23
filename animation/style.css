@@ -24,7 +24,7 @@ h1{
 	 	grid-template-columns: auto auto auto; 
 	}
 } 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1920px) {
 	.anh{
 		grid-template-columns: auto auto auto auto;
 	} 
@@ -41,7 +41,7 @@ h1{
 	background-size: cover; 
 	background-position: top; 
 	transition: all 1s; 
-	color: blue;
+	color: blue ;
 } 
 .a1 p{
 	padding-left: 10px;
