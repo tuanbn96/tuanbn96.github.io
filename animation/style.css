@@ -1,277 +1,51 @@
-*{
-	box-sizing: border-box;
-}
-.body{
-	width: 1000px;
-	margin: auto;
-	padding: 10px;
-	background-color: #bac1be;
-}
-.login{
-	border: 1px solid hidden;
-	margin: auto;
-	padding: 20px;
-	background-color: blue;
-	width: 150px;
-	transition: all 1s;
-	text-align: center;
-	
-}
-.login span{
-	
-	color: white;
-}
-.login:hover{
-	border-radius: 40px;
-	animation: bgc 2s ease infinite;
 
-}
-@keyframes bgc{
-	10%{
-		background-color: #039be5;
-	}
-	50%{
-		background-color: green;
-	}
-	100%{
-		background-color: #05a05a;
-	}
+*{ box-sizing: border-box; } 
+h1{
+	text-align: center;
 }
 .anh{
-	padding-top: 50px;
+	 margin: auto; padding: 10px; 
+	 background-color: #bac1be; 
+	 padding-top: 50px; 
+	 max-width: 1920px;
+	 display: grid;
+	 grid-template-columns: auto;
+	 grid-gap:10px;
+} 
 	
-}
-.h1{
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap:10px;
-
+@media only screen and (min-width: 768px) { 
+	.anh{
+		grid-template-columns: auto auto; 
+	}
 	
+} 
+@media only screen and (min-width: 992px) {
+	.anh{
+	 	grid-template-columns: auto auto auto; 
+	}
+} 
+@media only screen and (min-width: 1200px) {
+	.anh{
+		grid-template-columns: auto auto auto auto;
+	} 
+} 
+.h2{ 
+	margin: auto; width: 300px; 
+	height: 300px; 
+	margin-bottom: 20px; 
+	padding: 10px; 
+} 
+.a1{ 
+	max-width: 100%; 
+	height: 100%; 
+	background-size: cover; 
+	background-position: top; 
+	transition: all 1s; 
+	color: blue;
+} 
+.a1 p{
+	padding-left: 10px;
+	padding-top: 250px;
+	font-size: 25px;
 }
-.h2{
-	margin: auto;
-	
-	width: 300px;
-	height: 300px;
-	margin-bottom: 20px;
-	padding: 10px;
-
-}
-.a1{
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: top;
-	transition: all 1s;
-	
-}
-.a1:hover{
-	transform: scale(1.3);
-}
-.traitim{
-	
-	padding: 200px;
-	position: relative;
-}
-.t1{
-	width: 375.5px;
-	height: 360px;
-	background-size: cover;
-	transition: all 1s;
-	animation: dap 1.5s ease infinite;
-	
-	
-}
-@keyframes dap{
-	10%{
-		transform: scale(1.3);
-	}
-	20%{
-		transform: scale(1.2);
-	}
-	30%{
-		transform: scale(1.4);
-	}
-	50%{
-		transform: scale(1.1);
-
-	}
-	60%{
-		transform: scale(1.5);
-	}
-	70%{
-		transform: scale(1.3);
-	}
-	90%{
-		transform: scale(1.6);
-	}
-	100%{
-		transform: scale(1);
-	}
-
-
-
-}
-.chuchay{
-	margin-top: 30px;
-	position: absolute;
-	right: -110px;
-	opacity: 0;
-	transition: all 0.5s;
-	animation: run 3s ease infinite;
-}
-.chuchay span{
-	transition: all 0.5s;
-	animation: logo 1s ease infinite;
-}
-@keyframes run{
-
-	10%{
-		transform: translateX(-120px);
-		opacity: 1;
-	}
-	50%{
-		
-		transform: translateX(-120px);
-		opacity: 1;
-		
-	}
-	100%{
-		transform: translateX(-520px);
-		opacity: 0;
-	}
-
-}
-@keyframes logo{
-	10%{
-		color:#1c2cd6ba;
-
-	}
-	20%{
-		color: #1cd6cbf5;
-	}
-	30%{
-		color: #ec4d65a8;
-	}
-	40%{
-		color: #ece54d;
-	}
-	50%{
-		color: #88f709;
-	}
-	60%{
-		color: #098cf7;
-	}
-	70%{
-		color: #2009f7;
-	}
-	90%{
-		color: #f70990;
-	}
-	100%{
-		color: #93f70930;
-	}
-}
-.bt{
-	width: 100px;
-	margin: auto;
-	
-	position: relative;
-	background-color: gray;
-	height: 60px;
-}
-
-.div1 span{
-	color: white;
-	
-}
-
-#d4{
-	position: absolute;
-	top: 0px;
-	left: 15px;
-	animation: aa 5s ease infinite;
-
-}
-#d2{
-	position: absolute;
-	top: 20px;
-	left: 5px;
-	animation: ab 5s ease infinite;
-
-}
-#d3{
-	position: absolute;
-	top: 20px;
-	left: 5px;
-	animation: ac 5s ease infinite;
-
-}
-#d5{
-	position: absolute;
-	top: 40px;
-	left: 22px;
-}
-#d1{
-	position: absolute;
-	top: 0px;
-	left: 25px;
-}
-@keyframes aa{
-	10%{
-		opacity: 0;
-		
-	}
-
-	20%{
-		opacity: 1;
-		transform: translateY(20px);
-	}
-	33%{
-		opacity: 0;
-		transform: translateY(0);
-	}
-	34%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 0;
-	}
-}
-@keyframes ab{
-	0%{
-		opacity: 0;
-	}
-	34%{
-		opacity: 0;
-	}
-	66%{
-		opacity: 1;
-	}
-	67%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 0;
-	}
-}
-@keyframes ac{
-	0%{
-		opacity: 0;
-	}
-	34%{
-		opacity: 0;
-	}
-	66%{
-		opacity: 0;
-	}
-	67%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
-}
-
-
-
+.a1:hover{ transform: scale(1.3); }
