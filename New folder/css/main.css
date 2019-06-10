@@ -1,0 +1,139 @@
+
+.text{
+    width: 60%;
+    text-align: center;
+    margin: 3.5rem auto;
+}
+
+
+.icon{
+    margin: auto;
+    max-width: 60%;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.col-md-4{
+    padding: 1rem;
+}
+
+.icon img{
+    max-width: 2.3rem;
+}
+
+.about{
+   margin: 1.5rem 0;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    max-width: 25rem;
+}
+
+.how{
+    text-align: center;
+    background: #f8f3f3;
+    padding: 2rem 0;
+}
+
+.how .icon{
+    padding: 5%;
+    border-bottom: 1px solid #ecdede;
+}
+
+.how .under{
+    padding: 15%;
+}
+
+.how .under h2{
+    font-size: 1.5rem;
+}
+
+.how .under p{
+    font-size: .75rem;
+}
+
+.how .under .bitmap img{
+    max-width: 2rem;
+}
+
+.infor{
+    padding: 15%;
+}
+
+.contact{
+    padding: 0.5rem;
+    
+    text-align: left;
+}
+
+.contact1{
+    width:100%;
+    height:100%;
+    border:1px solid grey;
+    padding:0.5rem;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0.1rem 0.1rem #6d8dad; 
+}
+
+.price{
+    background: #f8f3f3;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.col{
+    text-align: center;
+}
+
+html{
+    font-size: 20px;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1000px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:800px){
+    .price img{
+        width: 70%;
+    }
+}
+
+@media(max-width:660px){
+    html{
+        font-size: 9px;
+    }
+
+    .price img{
+        width: 50%;
+    }
+}
+
+@media(max-width:500px){
+    html{
+        font-size: 5px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+header{
+    
+}
+.banner {
+    
+    position: relative;
+    height: 30rem;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+}
+
+.banner h2{
+    font-size: 2rem;
+}
+
+.banner p{
+    font-size: 1rem;
+}
+.logo{
+    width: 2rem;
+}
+.img1{
+    width: 60%;
+    padding-bottom: 1rem;
+}
+.icon{
+    padding-top: 1rem;
+}
+
+#navbarSupportedContent{
+    text-align: end;
+}
+
+.navbar a{
+    color: #ecdede;
+}
+.borderbottom{
+    border: 1px solid gray;
+    border-radius: 2rem;
+}
+
+
+
+
+.content{ 
+    width: 100%;
+    padding: 0 20%;
+    
+    position: absolute;
+    top: 25%;
+    background: none;
+}
+
+.content1{
+    width: 45%;
+    color: white;
+}
+
+.play{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
+.play img{
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-right: 0.25rem;
+}
+.buttom{
+    width: 40%;
+    margin-left: 5%;
+}

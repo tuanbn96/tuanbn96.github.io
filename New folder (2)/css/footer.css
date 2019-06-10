@@ -1,0 +1,49 @@
+.div4{
+    position: relative;
+    padding-top: 3rem;
+}
+.div41{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    z-index: -100;
+}
+.div42{
+    padding-left: 10rem;
+    padding-bottom: 10rem;
+}
+.div43{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: #F8FAFE;
+}
+.input-group{
+    width: 30%;
+}
+.div44{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.div45{
+    padding-top: 2rem;
+}
+.pdbt{
+    margin-bottom: 1rem;
+}
+
+.ml{
+    padding-left: 3rem;
+}
+.div00{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #F8FAFE; 
+    position: relative;
+
+}
+.dii{
+    position: absolute;
+    left: 40%;
+}

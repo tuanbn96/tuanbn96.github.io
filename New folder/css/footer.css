@@ -1,0 +1,52 @@
+footer{
+    position: relative;
+    
+}
+
+.text1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding:5% 30%;
+    text-align: center;
+    
+}
+
+footer .btn{
+    margin-top: 0.1rem;
+    color: #2f5bea;
+    
+}
+
+footer .above{
+    color: white;
+    
+}
+
+footer .below{
+    padding: 5% 20%;
+    text-align: left;
+    
+}
+
+footer .below ul{
+    padding-left: 0.25rem;
+}
+
+footer .below ul li{
+    list-style: none;
+}
+
+footer .below img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+.col{
+    text-align: left;
+}
+.br{
+    background-color: #D8D8D8;
+}
+.img-icon{
+    width: 1rem;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-image: url('../img/Slice.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.span{
+    color:#d3dcf1;
+}
+.div1{
+    padding-top: 5rem;
+    margin-left: 5rem;
+}
