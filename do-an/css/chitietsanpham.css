@@ -1,0 +1,36 @@
+.mota{
+    position: relative;
+}
+.but{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.row1{
+    padding-bottom:10px ;
+}
+.mua{
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(0, 86, 246);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.row2{
+    background-color:#ff0000cf;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid hidden;
+    border-radius: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+.heading{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}

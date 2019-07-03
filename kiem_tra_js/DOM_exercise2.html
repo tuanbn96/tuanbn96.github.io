@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+   </ul>
+  <script>
+      let body = document.getElementsByTagName('body')[0];
+      body.style.fontFamily =  "Arial, sans-serif";
+      
+      let li = document.getElementsByTagName('li');
+      li[0].innerText = 'Nguyễn Văn Tuân';
+      li[1].innerText = 'Xem phim ,chơi game';
+      li[2].innerText = 'Nhổn- Minh Khai - Bắc Từ liêm -Hà Nội';
+      for (let index = 0; index < li.length; index++) {
+          li[index].classList.add('listitem');
+          
+      }
+      let classli = document.getElementsByClassName('listitem');
+      for (let i = 0; i < classli.length; i++) {
+          classli[i].style.color = 'red';
+          
+      }
+      
+      let avata = document.createElement('img');
+      avata.setAttribute('src','icon.jpg');
+      body.appendChild(avata);
+      
+    
+     
+
+
+  </script>
+ </body>
+</html>

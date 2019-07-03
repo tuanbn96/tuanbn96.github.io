@@ -1,0 +1,158 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
+.head{
+    color:blue;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    display: flex;
+    padding-bottom: 5px;
+}
+.image-logo{
+    padding-top: 1rem;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.625rem;
+
+}
+.icon{
+    padding-top: 1rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+.search{
+    position: relative;
+}
+.tim-kiem{
+    position: absolute;
+    top:0px;
+    right: 9px;
+    width: 2.5rem;
+}
+.color{
+    font-size: 2.5rem;
+    font-style: italic;
+    padding-top: 20px;
+    
+    position: absolute;
+    left: 90px;
+}
+.color1{
+    color:red;
+}
+.color2{
+    color:red;
+}
+.color3{
+    color:red;
+}
+.color4{
+    color:red;
+}
+.color5{
+    color:red;
+}
+.color6{
+    color:red;
+}
+.navbar{
+    margin-top: 5rem;
+}
+
+.size-image{
+    max-width: 100px;
+}
+.tragop{
+    font-size: 3.5rem;
+    color: red;
+}
+.row{
+    width: 100%;
+}
+.bg-cp{
+    background-color:gray;
+    padding: 10px 30px;
+    height: 120px;
+}
+.title1{
+    margin-top: 10px;
+    background-color: #00301C;
+    height: 4.375rem;
+    padding-left: 20px;
+}
+.title2{
+    margin-top: 10px;
+    background-color: #DD1849;
+    height: 4.375rem;
+    padding-left: 20px;
+}
+.title3{
+    margin-top: 10px;
+    background-color: #002259;
+    height:4.375rem;
+    padding-left: 20px;
+}
+
+.pc1{
+    width: 100%;
+    display: flex;
+}
+.pc{
+    width: 33.33%;
+    padding-bottom: 20px;
+}
+.pc img{
+    height: 360px;
+    max-width: 100%;
+}
+.icon-bt{
+    margin: auto;
+}
+.icon-bt img{
+    max-width: 60px;
+}
+.icon-bt1 img{
+    max-width: 60px;
+}
+.fontsize36{
+    font-size: 2.25rem;
+    color: blue;
+}
+.fontsize24{
+    font-size: 1.5rem;
+    color: black;
+}
+.fontsize18{
+    font-size: 1.125rem;
+    color:black;
+}
+.fontsize30{
+    font-size: 1.875rem;
+    color:black;
+}
+.fontsize36red{
+    font-size: 2.25rem;
+    color:red;
+}
+.fontsize24red{
+    font-size: 1.5rem;
+    color: red;
+}
+.white{
+    color: white;
+}

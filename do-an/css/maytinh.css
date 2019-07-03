@@ -1,0 +1,8 @@
+.nav1{
+    position: relative;
+}
+.loc{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}

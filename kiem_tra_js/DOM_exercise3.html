@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Books List</title>
+</head>
+
+<body>
+    <h1>My Books List</h1>
+    <script>
+        let a = [
+            {
+                title: 'The Design of EveryDay Things',
+                author: 'Don Norman',
+                thumbnail: 'https://upload.wikimedia.org/wikipedia/en/3/33/The_Design_of_Everyday_Things_%28cover_1988%29.jpg',
+                alreadyRead: false
+            },
+            {
+                title: 'The Most Human Human',
+                author: 'Brian Christian',
+                thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51aKPFuUy1L._SX324_BO1,204,203,200_.jpg',
+                alreadyRead: true
+            },
+        ];
+        let body = document.getElementsByTagName('body')[0];
+
+        for (let i = 0; i < a.length; i++) {
+            let avata = document.createElement('div');
+            avata.innerHTML = `<p>tên sách:${a[i].title} , tác giả:${a[i].author} </p> </br> <img src="${a[i].thumbnail}"> `;
+            if (a[i].alreadyRead == true) {
+                avata.style.color = 'blue';
+            }
+            body.appendChild(avata);
+
+
+
+        }
+    </script>
+</body>
+
+</html>
