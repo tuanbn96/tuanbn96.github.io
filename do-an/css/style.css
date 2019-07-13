@@ -38,12 +38,7 @@ li{
 .search{
     position: relative;
 }
-.tim-kiem{
-    position: absolute;
-    top:0px;
-    right: 9px;
-    width: 2.5rem;
-}
+
 .color{
     font-size: 2.5rem;
     font-style: italic;
@@ -124,10 +119,10 @@ li{
     margin: auto;
 }
 .icon-bt img{
-    max-width: 60px;
+    max-width: 30px;
 }
 .icon-bt1 img{
-    max-width: 60px;
+    max-width: 30px;
 }
 .fontsize36{
     font-size: 2.25rem;
@@ -137,9 +132,14 @@ li{
     font-size: 1.5rem;
     color: black;
 }
+.fontsize16{
+    font-size: 1rem;
+    color: black;
+}
 .fontsize18{
     font-size: 1.125rem;
     color:black;
+   
 }
 .fontsize30{
     font-size: 1.875rem;
@@ -156,3 +156,146 @@ li{
 .white{
     color: white;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bannerkm{
+    margin: 0px;
+   
+    padding: 0px;
+}
+.bannerkm1{
+    text-align: left;
+}
+.bannerkm2{
+    text-align: right;
+}
+.baner{
+    margin-top: 10px;
+}
+.nav1{
+    margin-top: 10px;
+}
+.nav{
+    position: relative;
+}
+.search{
+    position: absolute;
+    right: 10px;
+    
+}
+@media (max-width:991px){
+    .search{
+        position: absolute;
+        right: 30px;
+        top:0px;
+        width: 12.5rem;
+    }
+}
+@media (max-width:575px){
+    .search{
+        position: absolute;
+        right: 10px;
+        top:0px;
+        width: 9.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bannerkm1{
+       
+        text-align: center;
+    }
+    .bannerkm2{
+       
+        text-align: center;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bannerkm1{
+       
+        text-align: center;
+    }
+    .bannerkm2{
+       
+        text-align: center;
+    }
+}
+
+.ft1{
+    background-color: #DBE1E8;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    margin-left: 0px;
+    
+}
+.ft{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    border: 1px solid hidden;
+    border-radius: 30px;
+    margin-left: 0px;
+}
+.ft-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.icon-bt img{
+    padding: 5px;
+}
+.icon-bt1 div{
+    padding-left: 20px;
+    margin: 10px;
+}
+.icon-bt1 div img{
+    padding: 5px;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid hidden;
+    border-radius: 10px;
+}
+.footer{
+    margin-top: 2rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.ten{
+    text-align: left;
+}
+.item1{
+    text-align: center;
+}
+.item1 button{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.item1 button img{
+    margin: auto;
+    
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color:aliceblue;
+    border-color:blue;
+}
+.icon-bt1 div {
+     padding-left: 0px;
+     margin: 0px;
+}
+

@@ -1,0 +1,19 @@
+{
+    "maytinh":[
+        {"ten":"VIO1:I5 9400f, GIGA GTX 1050,RAM 8Gb,SSD 120Gb","giá":"Gía: 16,500,000","anh":"../img/imgpc/Slice.png"},
+        {"ten":"VIO2:I5 9400, GIGA GTX 1650,RAM 8Gb,SSD 120Gb","giá":"Gía: 28,500,000","anh":"../img/imgpc/Slice 2.png"},
+        {"ten":"VIO1:I7 8700K, MSI RTX 2070,RAM 16Gb,SSD 500Gb ","giá":"Gía: 39,500,000","anh":"../img/imgpc/Slice 3.png"},
+        {"ten":"VIO1:I9 9900K, ASUS RTX 2070,RAM 64Gb,SSD 500Gb","giá":"Gía: 69,990,000","anh":"../img/imgpc/Slice 4.png"},
+        {"ten":"Rocket :I7 8700K, Asus GTX 1080Ti,RAM 16Gb,SSD 120Gb","giá":"Gía: 34,500,000","anh":"../img/imgpc/Slice 5.png"},
+        {"ten":"Rocket 1:I9 9900K, Asus GTX 2080Ti,RAM 64Gb,SSD 500Gb","giá":"Gía: 62,990,000 ","anh":"../img/imgpc/Slice 6.png"},
+        {"ten":"Rocket 2:I5 8400, MSI GTX 1650,RAM 8Gb,SSD 120Gb","giá":"Gía: 18,500,000","anh":"../img/imgpc/Slice 7.png"},
+        {"ten":"Rocket 2:I3 9100F, MSI GTX 1060,RAM 8Gb,SSD 120Gb","giá":"Gía: 18,500,000","anh":"../img/imgpc/Slice 8.png"},
+        {"ten":"RICK1:I7 8700K, MSI RTX 2080,RAM 32Gb,SSD 240Gb","giá":"Gía: 49,500,000","anh":"../img/imgpc/Slice 9.png"},
+        {"ten":"RICK1:I9 9900K, MSI RTX 2080Ti,RAM 64Gb,SSD 240Gb","giá":"Gía: 79,500,000","anh":"../img/imgpc/Slice 10.png"},
+        {"ten":"RICK3:I5 8600,  ASUS 1650 ,RAM 32Gb,SSD 240Gb ","giá":"Gía: 33,500,000","anh":"../img/imgpc/Slice.png"},
+        {"ten":"VIO2:I5 9400f, GIGA GTX 1660,RAM 8Gb,SSD 120Gb","giá":"Gía: 25,500,000","anh":"../img/imgpc/Slice.png"} 
+    ],
+    "buildpc":[
+        {"ten":"color red",}
+    ]               
+}

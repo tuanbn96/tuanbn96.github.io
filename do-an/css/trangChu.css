@@ -1,9 +1,37 @@
-.card{
-    height: 28rem;
+
+.spbanchay img{
+   
+   padding: 5px;
+    text-align: center;
+
 }
-.card img{
-    height: 60%;
+.anh{
+    width: 100%;
 }
-.caro{
-    overflow: hidden;
+.anh1{
+    width: 65%;
+    padding: 1rem;
+}
+.row{
+    margin: 0px;
+    justify-items: center;
+    
+}
+.click{
+    width: 33.33%;
+    text-align: center;
+}
+.click button{
+    width: 6rem; 
+}
+.anh2{
+    width: 45%;
+    padding: 1rem;
+    position: relative;
+}
+.aa{
+    position: absolute;
+    bottom:1rem;
+    padding-right: 2rem;
+    height: 48%;
 }

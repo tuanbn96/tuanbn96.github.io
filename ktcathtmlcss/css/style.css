@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url('../font/Helvetica/Regular/Helvetica.ttf');
+}
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url('../font/Helvetica/Regular/Helvetica-Bold.ttf');
+}
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url('../font/Helvetica/Regular/Helvetica-Light.ttf');
+}
+
+.saibar{
+    background-image: url('../img/backgroundheader.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 7rem;
+    position: relative;
+}
+.time{
+    margin-top: 6.25rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.eth{
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+}
+.p2{
+    background-image: url('../font/bg.png');
+}
+
+.aa{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.aa>div>img{
+    text-align: center;
+    padding-left: 20px;
+    margin: auto;
+}
+.aa >div{
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.r1{
+    padding: 10px;
+    background-image: url('../font/Portfolio.png');
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.r1 img{
+    padding: 10px 0px 0px 20px;
+}
+.r2{
+    padding-left: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.card-body{
+    text-align: center;
+}
+@media (max-width: 575.98px) {
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card{
+        width: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card{
+        width: 33.33%;
+    }
+}
+@media (min-width: 992px) {
+    .card{
+        width: 20%;
+    }
+}
+@media (max-width:768px){
+    .time{
+        margin-top: 6.25rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+.ssss{
+    background-image: url('../font/bg.png');
+}
+.ft{
+    background-image: url('../font/BGee.png');
+    position: relative;
+}
+.ft2{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.en{
+    margin-top: 160px;
+    position: relative;
+    display: flex;
+}
+.end{
+    position: absolute;
+    right: 10px;
+}

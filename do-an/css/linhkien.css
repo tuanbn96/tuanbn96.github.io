@@ -1,0 +1,51 @@
+.kmpk{
+    margin-left: 0px;
+    
+}
+.linhkien{
+    padding: 10px;
+    
+}
+.png{
+    width: 50%;
+}
+
+.linhkien button{
+    width: 10rem;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    padding: 2px;
+}
+.liki{
+    padding: 10px;
+    display: flex;
+    height: 15rem;
+    margin: 30px 10px;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px 0px gray;
+}
+
+
+.liki button{
+    margin: 5px;
+}
+.liki button :hover{
+    background-color: #DEE4F9;
+}
+
+
+.goiy1{
+    margin-bottom: 10px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chip{
+    margin-right: 4rem;
+    
+    background-color: white;
+    width: 100px;
+}
