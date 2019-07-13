@@ -10,7 +10,10 @@
     font-family: "Helvetica-Light";
     src: url('../font/Helvetica/Regular/Helvetica-Light.ttf');
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
 .saibar{
     background-image: url('../img/backgroundheader.png');
     background-position: center;
