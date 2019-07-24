@@ -29,31 +29,36 @@
                 <div class="icon">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModalScrollable">
-                        <img src="img/icon/giohang.png" style="width:50%;" alt="Giỏ hàng">
+                        data-target="#cart">
+                        <img src="img/icon/giohang.png" style="width:30%;" alt="Giỏ hàng">
+                        (<span class="total-count"></span>)
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalScrollableTitle">Giỏ hàng</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                    <button type="button" class="btn btn-primary">Đặt hàng</button>
-                                </div>
+                    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Giỏ hàng</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                             </div>
+                            <div class="modal-body">
+                              <table class="show-cart table">
+                                
+                              </table>
+                              <div>Thành tiền:<span class="total-cart"></span></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="clear-cart btn btn-danger">Xóa</button>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </div>
+                          </div>
                         </div>
-                    </div>
+                      </div> 
+                      
+                      
                     <div class="btn-group" role="group">
                         <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -154,7 +159,29 @@
             </a>
         </div>
     </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="heading col-sm-12 col-md-6 col-lg-4" style="background-color: rgb(24, 58, 88);text-align: center;color: white;">
+                <a href="html/maytinh.html">
+                    <p class="fontsize36w">Dịch vụ</p>
+                </a>
+                
+            </div>
+            <div class="heading col-sm-12 col-md-6 col-lg-4" style="background-color: rgb(24, 58, 88);text-align: center;color: white">
+                <a href="html/maytinh.html">
+                    <p class="fontsize36w">Bảo hành</p>
+                </a>
+                
+            </div>
+            <div class="heading col-sm-12 col-md-6 col-lg-4" style="background-color: rgb(24, 58, 88);text-align: center;color: white">
+                <a href="html/maytinh.html">
+                    <p class="fontsize36w">Trả góp</p>
+                </a>
+                
+            </div>
+            
+        </div>
+    </div>
     <div class="container">
         <div class="heading" style="background-color: aliceblue;">
             <a href="html/maytinh.html">
@@ -163,89 +190,87 @@
         </div>
         <div class="row">
             <div class="owl-carousel owl-theme spbanchay">
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Rocket 2:I5 9400F,MSI GTX 1660Ti,RAM 8Gb,SSD
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Rocket 2:I5 9400F,MSI GTX 1660Ti,RAM 8Gb,SSD
                             256Gb</span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 19,950,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 19,950,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="add-to-cart btn btn-primary btn-sm" data-name="Rocket 2:I5 9400F,MSI GTX 1660Ti,RAM 8Gb,SSD 256Gb" data-price="19950000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 2.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Rocket 2:I5 9400,MSI GTX 1660Ti,RAM 8Gb,SSD
-                            256Gb</span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 22,950,000 </span>
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 2.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Rocket 2:I5 9400,MSI GTX 1660Ti,RAM 8Gb,SSD 256Gb</span></a>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 22,950,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="add-to-cart btn btn-primary btn-sm" data-name="Rocket 2:I5 9400,MSI GTX 1660Ti,RAM 8Gb,SSD 256Gb" data-price="22950000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
 
                 </div>
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 3.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">VIO1:I7 8700K, MSI RTX 2070,RAM 16Gb,SSD 500Gb
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 3.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">VIO1:I7 8700K, MSI RTX 2070,RAM 16Gb,SSD 500Gb
 
                         </span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 39,500,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 39,500,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="add-to-cart btn btn-primary btn-sm" data-name="VIO1:I7 8700K, MSI RTX 2070,RAM 16Gb,SSD 500Gb" data-price="39500000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 4.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">VIO1:I9 9900K, ASUS RTX 2070,RAM 64Gb,SSD 500Gb
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 4.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">VIO1:I9 9900K, ASUS RTX 2070,RAM 64Gb,SSD 500Gb
 
                         </span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 69,990,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 69,990,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="add-to-cart btn btn-primary btn-sm" data-name="VIO1:I9 9900K, ASUS RTX 2070,RAM 64Gb,SSD 500Gb" data-price="69990000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
 
 
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 5.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Rocket :I7 8700K, Asus GTX 1080Ti,RAM 16Gb,SSD 120Gb
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 5.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Rocket :I7 8700K, Asus GTX 1080Ti,RAM 16Gb,SSD 120Gb
 
                         </span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 34,500,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 34,500,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="Rocket :I7 8700K, Asus GTX 1080Ti,RAM 16Gb,SSD 120Gb" data-price="34500000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 6.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Rocket 1:I9 9900K, Asus GTX 2080Ti,
-                            RAM 64Gb,SSD 500Gb
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 6.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Rocket 1:I9 9900K, Asus GTX 2080Ti,RAM 64Gb,SSD 500Gb
 
                         </span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px; color: blue;">Giá: 62,990,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px; color: blue;">Giá: 62,990,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="Rocket 1:I9 9900K, Asus GTX 2080Ti,RAM 64Gb,SSD 500Gb" data-price="62990000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item">
-                    <a href="#"><img src="img/imgpc/Slice 7.png" class="" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Rocket 2:I3 9100F, MSI GTX 1060,RAM 8Gb,SSD 120Gb
+                <div class="itemm card">
+                    <a href="#"><img src="img/imgpc/Slice 7.png"class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Rocket 2:I3 9100F, MSI GTX 1060,RAM 8Gb,SSD 120Gb
 
                         </span></a>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;">Giá: 18,500,000 </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: 18,500,000 </span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="Rocket 2:I3 9100F, MSI GTX 1060,RAM 8Gb,SSD 120Gb" data-price="18500000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
@@ -261,76 +286,76 @@
         </div>
         <div class="row">
             <div class="owl-carousel owl-theme spbanchay">
-                <div class="item"><a href="#"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+                <div class="itemm card"><a href="#"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
                                 2.225.000</strike></span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="img/icon/shopping-cart.png"
                                     class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                         </div>
                 </div>
-                <div class="item"><a href="#"><img src="img/imggear/Slice 2.png" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">MSI M92</a>
+                <div class="itemm card"><a href="#"><img src="img/imggear/Slice 2.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">MSI M92</a>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.625.000</strike>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.625.000</strike>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI M92" data-price="2425000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+                <div class="itemm card"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
                             2.225.000</strike></span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item"><a href="#"><img src="img/imggear/Slice 3.png" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">Razer Abyssus V2</a>
+                <div class="itemm card"><a href="#"><img src="img/imggear/Slice 3.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">Razer Abyssus V2</a>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
                             2.425.000</strike></span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.225.000</span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.225.000</span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="Razer Abyssus V2" data-price="2225000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
 
-                <div class="item"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+                <div class="itemm card"><a href="#"><img src="img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.225.000</strike>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.225.000</strike>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
-                <div class="item"><a href="#"><img src="img/imggear/Slice 2.png" class="img-fluid" alt=""></a>
-                    <a href="#"><span class="fontsize16 ten">MSI M92</a>
+                <div class="itemm card"><a href="#"><img src="img/imggear/Slice 2.png" class="img-fluid card-img-top" alt=""></a>
+                    <a href="#"><span class="fontsize16 ten card-title">MSI M92</a>
                     </span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                            2.625.000</strike></span>
-                    <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.625.000</strike>
+                    </span>
+                    <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
                     <div class="item1">
                         <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                        <button type="button" class="btn btn-secondary btn-sm"><img src="img/icon/shopping-cart.png"
+                        <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI M92" data-price="2425000"><img src="img/icon/shopping-cart.png"
                                 class="img-fluid" style="width:65%;text-align:center" alt=""></button>
                     </div>
                 </div>
@@ -422,6 +447,7 @@
     <script src="js/owl.carousel.js"></script>
 
     <script src="js/carousel.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 
 </html>

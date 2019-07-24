@@ -25,33 +25,35 @@
                             class="color3">l</span><span class="color4">o</span><span class="color5">r</span><span
                             class="color6">s</span></b></p>
                 <div class="icon">
-                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModalScrollable">
-                        <img src="../img/icon/giohang.png" style="width:50%;" alt="Giỏ hàng">
+                        data-target="#cart">
+                        <img src="../img/icon/giohang.png" style="width:30%;" alt="Giỏ hàng">
+                        (<span class="total-count"></span>)
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalScrollableTitle">Giỏ hàng</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                    <button type="button" class="btn btn-primary">Đặt hàng</button>
-                                </div>
+                    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Giỏ hàng</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                             </div>
+                            <div class="modal-body">
+                              <table class="show-cart table">
+                                
+                              </table>
+                              <div>Thành tiền:<span class="total-cart"></span></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="clear-cart btn btn-danger">Xóa</button>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </div>
+                          </div>
                         </div>
-                    </div>
+                      </div> 
                     <div class="btn-group" role="group">
                         <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -281,93 +283,85 @@
                 </a>
             </div>
             <div class="row">
-                <div class="owl-carousel owl-theme spbanchay">
-                    <div class="item"><a href="#"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid"
-                                    alt=""></a>
-                            <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+                <div class="owl-carousel owl-theme spbanchay" style="margin-left: 15px;">
+                    <div class="itemm card"><a href="#"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                            <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                             </span>
-                            <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                            <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
                                     2.225.000</strike></span>
-                            <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                            <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
                             <div class="item1">
                                 <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                                <button type="button" class="btn btn-secondary btn-sm"><img
-                                        src="../img/icon/shopping-cart.png" class="img-fluid"
-                                        style="width:65%;text-align:center" alt=""></button>
+                                <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="../img/icon/shopping-cart.png"
+                                        class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                             </div>
                     </div>
-                    <div class="item"><a href="#"><img src="../img/imggear/Slice 2.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">MSI M92</a>
+                    <div class="itemm card"><a href="#"><img src="../img/imggear/Slice 2.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">MSI M92</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                                2.625.000</strike> </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2.625.000</strike>
+                        </span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img
-                                    src="../img/icon/shopping-cart.png" class="img-fluid"
-                                    style="width:65%;text-align:center" alt=""></button>
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI M92" data-price="2425000"><img src="../img/icon/shopping-cart.png"
+                                    class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                         </div>
                     </div>
-                    <div class="item"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+                    <div class="itemm card"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                                2.225.000</strike></span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                                2,225,000</strike></span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2,025,000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img
-                                    src="../img/icon/shopping-cart.png" class="img-fluid"
-                                    style="width:65%;text-align:center" alt=""></button>
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="../img/icon/shopping-cart.png"
+                                    class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                         </div>
                     </div>
-                    <div class="item"><a href="#"><img src="../img/imggear/Slice 3.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">Razer Abyssus V2</a>
+                    <div class="itemm card"><a href="#"><img src="../img/imggear/Slice 3.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">Razer Abyssus V2</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                                2.425.000</strike></span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.225.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá:
+                                2,425,000</strike></span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2,225,000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img
-                                    src="../img/icon/shopping-cart.png" class="img-fluid"
-                                    style="width:65%;text-align:center" alt=""></button>
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="Razer Abyssus V2" data-price="2225000"><img src="../img/icon/shopping-cart.png"
+                                    class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                         </div>
                     </div>
-
-                    <div class="item"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">MSI GK40</a>
+    
+                    <div class="itemm card"><a href="#"><img src="../img/imggear/Slice.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">MSI GK40</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                                2.225.000</strike> </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.025.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2,225,000</strike>
+                        </span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2,025,000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img
-                                    src="../img/icon/shopping-cart.png" class="img-fluid"
-                                    style="width:65%;text-align:center" alt=""></button>
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI GK40" data-price="2025000"><img src="../img/icon/shopping-cart.png"
+                                    class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                         </div>
                     </div>
-                    <div class="item"><a href="#"><img src="../img/imggear/Slice 2.png" class="img-fluid" alt=""></a>
-                        <a href="#"><span class="fontsize16 ten">MSI M92</a>
+                    <div class="itemm card"><a href="#"><img src="../img/imggear/Slice 2.png" class="img-fluid card-img-top" alt=""></a>
+                        <a href="#"><span class="fontsize16 ten card-title">MSI M92</a>
                         </span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color: blue;"><strike>Giá:
-                                2.625.000</strike></span>
-                        <span class="fontsize18 ten" style="margin-bottom:0px;color:red;">Giá: 2.425.000</span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;"><strike>Giá: 2,625,000</strike>
+                        </span>
+                        <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá: 2,425,000</span>
                         <div class="item1">
                             <button type="button" class="btn btn-primary btn-sm">Mua</button>
-                            <button type="button" class="btn btn-secondary btn-sm"><img
-                                    src="../img/icon/shopping-cart.png" class="img-fluid"
-                                    style="width:65%;text-align:center" alt=""></button>
+                            <button type="button" class="btn btn-primary btn-sm add-to-cart" data-name="MSI M92" data-price="2425000"><img src="../img/icon/shopping-cart.png"
+                                    class="img-fluid" style="width:50%;text-align:center" alt=""></button>
                         </div>
                     </div>
-
-
+    
+    
                 </div>
             </div>
         </div>
-
         <div class="container footer">
             <div class="row ft1">
                 <div class="col-sm-12 col-md-6">
@@ -437,6 +431,7 @@
         <script src="../js/owl.carousel.js"></script>
 
         <script src="../js/carousel.js"></script>
+        <script src="../js/cart.js"></script>
 </body>
 
 </html>

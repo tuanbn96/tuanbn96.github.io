@@ -149,6 +149,10 @@ li{
     font-size: 2.25rem;
     color:red;
 }
+.fontsize36w{
+    font-size: 2.25rem;
+    color:white;
+}
 .fontsize24red{
     font-size: 1.5rem;
     color: red;
@@ -200,6 +204,10 @@ li{
         top:0px;
         width: 9.5rem;
     }
+    .heading{
+        border: 1px solid hidden;
+        border-radius: 10px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .bannerkm1{
@@ -219,6 +227,14 @@ li{
     .bannerkm2{
        
         text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 576px){
+    .image-logo{
+        max-width: 60px;
+    }
+    .color{
+        display: none;
     }
 }
 
@@ -259,13 +275,12 @@ li{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
-    border: 1px solid hidden;
-    border-radius: 10px;
+   
 }
 .footer{
     margin-top: 2rem;
 }
-.item{
+.itemm{
     display: flex;
     flex-direction: column;
     align-items: center;
