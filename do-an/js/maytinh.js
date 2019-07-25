@@ -19,7 +19,7 @@ var maytinh =[
   var table = '';
  
   for (i = 0; i <maytinh.length; i++) { 
-    table += ` <div class="itemm card col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    table += ` <div class="itemm card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="margin-bottom:10px;margin-top:10px;>
     <a href="../html/chitietlk.html"><img src="${maytinh[i].anh}" class="img-fluid card-img-top" alt=""></a>
     <a href="../html/chitietlk.html"><span class="fontsize16 ten card-title">${maytinh[i].ten}</span></a>
     <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: ${maytinh[i].gia} </span>
