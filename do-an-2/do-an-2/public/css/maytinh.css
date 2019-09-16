@@ -1,0 +1,17 @@
+.nav1{
+    position: relative;
+}
+.loc{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.bo{
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-bottom: 2rem;
+}
+.card{
+    padding: 10px;
+    text-align: center
+}
