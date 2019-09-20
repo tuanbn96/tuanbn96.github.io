@@ -22,7 +22,7 @@ function myFunction(arr) {
       <a href="../html/chitietlk.html"><span class="fontsize16 ten card-title">${arr[i].ten}</span></a>
       <span class="fontsize18 ten card-text" style="margin-bottom:0px;color: blue;">Giá: ${arr[i].gia} </span>
       <div class="item1">
-          <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=${arr[i].id}'>Mua</a>
+          <a class="btn btn-primary btn-sm" href='dathang.html?id=${arr[i].id}'>Mua</a>
           <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick='add(${arr[i].id})'>Cart</button>
                      
       </div>

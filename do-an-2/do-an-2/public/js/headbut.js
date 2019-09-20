@@ -5,8 +5,7 @@ let value = `<div class="container">
                 class="color3">l</span><span class="color4">o</span><span class="color5">r</span><span
                 class="color6">s</span></b></p>
     <div class="icon">
-    <a type="button" class="btn btn-primary btn-md add-to-cart" href = 'html/cart.html'>Cart</a>
-                    
+    <a class="btn btn-primary btn-md active" aria-pressed="true" role="button" href = 'html/cart.html'>Cart</a>
           
         <div class="btn-group" role="group">
             <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"

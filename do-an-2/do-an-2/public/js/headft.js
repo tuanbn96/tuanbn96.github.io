@@ -69,7 +69,7 @@ let km = `<div class="container">
                 <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                     1.025.000</span>
                 <div class="item1">
-                   <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=59'>Mua</a>
+                   <a class="btn btn-primary btn-sm" href='dathang.html?id=59'>Mua</a>
                     <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(59)">Cart</button>
                 </div>
         </div>
@@ -83,7 +83,7 @@ let km = `<div class="container">
             <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                 4.425.000</span>
             <div class="item1">
-               <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=60'>Mua</a>
+               <a class="btn btn-primary btn-sm" href='dathang.html?id=60'>Mua</a>
                 <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(60)">Cart</button>
             </div>
         </div>
@@ -96,7 +96,7 @@ let km = `<div class="container">
             <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                 2,025,000</span>
             <div class="item1">
-               <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=71'>Mua</a>
+               <a class="btn btn-primary btn-sm" href='dathang.html?id=71'>Mua</a>
                 <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(71)">Cart</button>
             </div>
         </div>
@@ -109,7 +109,7 @@ let km = `<div class="container">
             <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                 2,225,000</span>
             <div class="item1">
-               <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=67'>Mua</a>
+               <a class="btn btn-primary btn-sm" href='dathang.html?id=67'>Mua</a>
                 <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(67)">Cart</button>
             </div>
         </div>
@@ -124,7 +124,7 @@ let km = `<div class="container">
             <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                 1,625,000</span>
             <div class="item1">
-               <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=66'>Mua</a>
+               <a class="btn btn-primary btn-sm" href='dathang.html?id=66'>Mua</a>
                 <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(66)">Cart</button>
             </div>
         </div>
@@ -138,7 +138,7 @@ let km = `<div class="container">
             <span class="fontsize18 ten card-text" style="margin-bottom:0px;color:red;">Giá:
                 725,000</span>
             <div class="item1">
-            <a type="button" class="btn btn-primary btn-sm" href='dathang.html?id=64'>Mua</a>
+            <a class="btn btn-primary btn-sm" href='dathang.html?id=64'>Mua</a>
                 <button type="button" class="btn btn-primary btn-sm add-to-cart" onclick="add(64)">Cart</button>
             </div>
         </div>
