@@ -31,7 +31,7 @@ $.ajax({
        for(i = 0;i< data.length;i++){
            for(j= 0;j< arrid.length;j++){
             if(data[i].id == arrid[j]){
-                table += `<tr style="max-width:100%">
+                table += `<tr>
 
 
 
