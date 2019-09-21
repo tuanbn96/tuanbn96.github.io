@@ -1,4 +1,6 @@
-let api = 'http://localhost:3000/product';
+let api = 'https://tuanbn96.github.io/do-an-2/product.json';
+
+let api2 = 'https://tuanbn96.github.io/do-an-2/cart.json';
 var xmlhttp = new XMLHttpRequest();
 let url= api;
 xmlhttp.onreadystatechange = function() {
@@ -32,7 +34,7 @@ function myFunction(arr) {
   
   }
 
-  let api2 = 'http://localhost:3000/cart';
+
   function add(n){
     $.ajax({
         type: 'POST',

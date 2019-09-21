@@ -1,6 +1,6 @@
-let api = 'http://localhost:3000/product';
+let api = 'https://tuanbn96.github.io/do-an-2/product.json';
 
-let api2 = 'http://localhost:3000/cart';
+let api2 = 'https://tuanbn96.github.io/do-an-2/cart.json';
 let arrid = [];
 $.ajax({
     type: 'GET',
