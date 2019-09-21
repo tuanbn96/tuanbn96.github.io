@@ -31,7 +31,11 @@ $.ajax({
        for(i = 0;i< data.length;i++){
            for(j= 0;j< arrid.length;j++){
             if(data[i].id == arrid[j]){
-                table += `<tr>
+                table += `<tr style="max-width:100%">
+
+
+
+
                 <td style="width:20%"><img src="${data[i].anh}" style="width:100%"/></td>
                 <td style="width:30%">${data[i].ten}</td>
                 <td style="width:20%" id="gia">${data[i].gia}</td>
