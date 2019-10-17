@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import ChinhSach from './pages/ChinhSach';
 import {CartProvider} from './contexxs/cart';
+import Product from './pages/product';
 
 import {Route, Switch } from 'react-router-dom';
 
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/ChinhSach">
             <ChinhSach />
+          </Route>
+          <Route path="/product/:slug.:id.html">
+            <Product />
           </Route>
           <Route path='/:slug'>
             <Erro />
