@@ -10,15 +10,16 @@ import ChinhSach from './pages/ChinhSach';
 import {CartProvider} from './contexxs/cart';
 import Product from './pages/product';
 
-import {Route, Switch } from 'react-router-dom';
+import {Route, Switch ,useParams} from 'react-router-dom';
 
 
 import './style/App.css';
 
 function App() {
   return (
-    
+   
     <CartProvider>
+     
      <Switch>
           <Route exact path="/">
             <Home />
@@ -41,13 +42,14 @@ function App() {
           <Route path="/ChinhSach">
             <ChinhSach />
           </Route>
-          <Route path="/product/:slug.:id.html">
+          <Route path="/Ctproduct/:slug:id.html">
             <Product />
           </Route>
           <Route path='/:slug'>
             <Erro />
           </Route>
       </Switch>
+      
     </CartProvider>
     
   );

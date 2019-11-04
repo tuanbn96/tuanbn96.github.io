@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import {database} from '../firebase/config';
 import {CartContext} from '../contexxs/cart';
-import Data from '../dataconfig';
-import {Link} from 'react-router-dom'
+import axios from 'axios';
+import data from '../dataconfig';
+import {Link} from 'react-router-dom';
+import '../style/card.css'
 
 export default class Products extends Component {
     constructor(props){
         super(props);
         this.state = {
-            product :[]
+            product :data
         }
     }
-    componentDidMount(){
-        this.setState({
-            product:Data
-        })
-    }
+    // componentDidMount(){
+    //     axios.get("https://l40jy.sse.codesandbox.io/product").then(res => {
+    //         this.setState({
+    //             product:res.data
+    //         });
+    //     });
+        
+    // }
+
      toSlug = (str) =>
     {
     // Chuyển hết sang chữ thường
@@ -47,14 +52,7 @@ export default class Products extends Component {
     // return
     return str;
     }
-    // componentDidMount(){
-    //     database.ref("/").on('value', (snapshot) => {
-    //       this.setState({
-    //         product: snapshot.val()
-    //       });
-    //     });
-    //     console.log(database);
-    //   }
+   
     render() {
         const {product} = this.state;
        var tong = (cartItem) => {
@@ -75,15 +73,17 @@ export default class Products extends Component {
                 </div>
                 
                 <div className='container' >
+                
                     <div className='row'>
                         <div className='col-lg-9 col-xl-9 col-md-9 col-sm-12'>
+                       
                             <div className='row'>
                             {product.map(item =>(
                                 <div key={item.id} className='col-lg-4 col-xl-4 col-md-6 col-sm-12' style={{marginBottom:'20px'}}>
                                     <div className="card" style={{maxWidth: '100%'}}>
-                                        <Link to={'/product/' + this.toSlug(item.name + "." + item.id) + '.html'}><img src={item.img} className="card-img-top" /></Link>
+                                        <Link to={'/Ctproduct/' + this.toSlug(item.name + "." + item.id) + '.html'}><img src={item.img} className="card-img-top" /></Link>
                                         <div className="card-body">
-                                        <Link to={'/product/' + this.toSlug(item.name + "." + item.id) + '.html'}><h5 className="card-title">{item.name}</h5></Link>
+                                        <Link to={'/Ctproduct/' + this.toSlug(item.name + "." + item.id) + '.html'}><h5 className="card-title">{item.name}</h5></Link>
                                         <p className="card-text">{item.price} vnđ</p>
                                         <CartContext.Consumer>
                                             {({addToCart}) => (<button  className="btn btn-primary" onClick={() => addToCart(item)}>Order Now</button>)}
@@ -96,26 +96,31 @@ export default class Products extends Component {
                                 
                             </div>
                         </div>
-                        <div className='col-lg-3 col-xl-3 col-md-3 col-sm-12' >
+                        <div className='col-lg-3 col-xl-3 col-md-3 col-sm-12'>
                             <div style={{maxWidth:'100%',textAlign:'center',height:'3rem',backgroundColor:'#e5d417',color:'white',borderTopLeftRadius:'10px',borderTopRightRadius:'10px'}}>
                                 <h2>Order List</h2>
                                 
-                            </div><CartContext.Consumer>
-                                            {({cartItem}) => (cartItem.map(item =>( <div  key={cartItem.id}>
+                            </div>
+                            <div style={{height:"250px",width:"100%",padding:"10px",overflow:"auto"}}>
+                            <CartContext.Consumer>
+                                {({cartItem,tProduct,gProduct}) => (cartItem.map(item =>( 
+                                <div  key={cartItem.id} >
                                 
-                                <p>Tên:{item.name}</p>
-                                 <p>Số lượng: {item.amount}</p>
+                                  <p>Tên:{item.name}</p>
+                                  <p>Số lượng: <input className="num-product" type="text" name="num-product1" size='1'
+                            value={item.amount} />
+                                  <button className="btn-num-product-down color1 flex-c-m size7 bg8 eff2" onClick={() => gProduct(item)}>
+                                    <i className="fs-12 fa fa-minus" aria-hidden="true" />
+                                    </button>
+                                    <button className="btn-num-product-up color1 flex-c-m size7 bg8 eff2" onClick={() => tProduct(item)}>
+                                    <i className="fs-12 fa fa-plus" aria-hidden="true" />
+                                    </button>
+                                  </p>
                                  
-                             <p>Đơn giá: {item.price*item.amount} vnđ</p><hr/>
-                             
-                            
-                            
-                             
-                                            </div>)))}
-
-                                 
-                                        
+                                  <p>Đơn giá: {item.price*item.amount} vnđ</p><hr/>
+                                </div>)))}        
                                 </CartContext.Consumer>
+                                </div>
                                 <CartContext.Consumer>
                                 {({cartItem}) => (<div><p>Apply coupon:
                                  

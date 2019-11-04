@@ -1,38 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Bai1</title>
-		<meta charset="uft-8"/>
-		<link rel="stylesheet" type="text/css" href="css/style2.css">
-	</head>
+<head>
+	<title> Calculator </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<tr>
+				<td class="heading">Calculator</td>
+			</tr>
 
-	<body>
-		<div class="wrap">
-			<h1>Calculator</h1>
-			<div class="box">
-				<input type="text" id="click"><br/>
-				<button onclick="reset()">AC</button>
-				<button onclick="giaiThua()">!</button>
-				<button onclick="binhphuong()">x&sup2</button>
-				<button onclick="so('/')">/</button><br/>
-				<button onclick="so(7)">7</button>
-				<button onclick="so(8)">8</button>
-				<button onclick="so(9)">9</button>
-				<button onclick="so('*')">x</button><br/>
-				<button onclick="so(4)">4</button>
-				<button onclick="so(5)">5</button>
-				<button onclick="so(6)">6</button>
-				<button onclick="so('-')">-</button><br/>
-				<button onclick="so(1)">1</button>
-				<button onclick="so(2)">2</button>
-				<button onclick="so(3)">3</button>
-				<button onclick="so('+')">+</button><br/>
-				<button onclick="so(0)">0</button>
-				<button onclick="so('.')">.</button>
-				<button onclick="daubang()" id="box-1">=</button>
-			</div>
-		</div>
-		<script src="script.js"></script>
+			<td>
+				<input type="text" id="input" placeholder="0">
+				<input type="text" id="answer" style="color: green">
+			</td>
 
-	</body>
+		</tr>
+
+		<td>
+			<input type="button" value="C" onclick="clearScreen()" style="color: white ; background: red">			
+			<input type="button" value="&#8592" onclick="back()" style="color: red ">
+			<input type="button" value="(" onclick="getOperand('(')" style="background: #33c0c9">
+			<input type="button" value=")" onclick="getOperand(')')" style="background: #33c0c9">
+			
+			<br>
+
+      <input type="button" value="x&#178" onclick="getOperand('^2')" style="background: pink">
+			<input type="button" value=" ! " onclick="tinhGiaiThua()" style="background: pink">
+			<input type="button" value="&#8730" onclick="tinhCanBacHai()" style="background: pink">
+			<input type="button" value=" + " onclick="getOperand('+')" style="background: pink">
+			<br>
+			
+			<input type="button" value=" 1 " onclick="getNumber(1)">
+			<input type="button" value=" 2 " onclick="getNumber(2)">
+			<input type="button" value=" 3 " onclick="getNumber(3)">
+			<input type="button" value=" - " onclick="getOperand('-')" style="background: pink">
+			
+			<br>
+
+			<input type="button" value=" 4 " onclick="getNumber(4)">
+			<input type="button" value=" 5 " onclick="getNumber(5)">
+			<input type="button" value=" 6 " onclick="getNumber(6)">
+			<input type="button" value=" x " onclick="getOperand('x')" style="background: pink">
+			
+			<br>
+
+			<input type="button" value=" 7 " onclick="getNumber(7)">
+			<input type="button" value=" 8 " onclick="getNumber(8)">
+			<input type="button" value=" 9 " onclick="getNumber(9)">
+			<input type="button" value=" &#247 " onclick="getOperand('/')" style="background: pink">
+			<br>
+
+			<input type="button" value=" 0 " onclick="getNumber(0)">
+			<input type="button" value="." onclick="(getOperand('.'))">
+			<input type="button" value=" = " onclick="compute()" style="width: 120px; color: white; background: green;">
+			
+		</td>
+	</table>
+	<script src="Calculator.js"></script>
+</body>
 </html>

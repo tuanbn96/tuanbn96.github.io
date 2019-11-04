@@ -1,0 +1,16 @@
+.App-link {
+  color: #09d3ac;
+}
+#components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #eeeeee;
+  font-weight: 500;
+}

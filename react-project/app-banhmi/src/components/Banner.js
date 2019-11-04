@@ -88,12 +88,13 @@ export default class Banner extends Component {
                           <div className="col-12 col-md-3">
                             <button type="submit" className="btn btn-block btn-lg btn-primary" >Search</button><br/>
                             
-                          </div>
+                          </div>-
+
                         </div>
                       </form>
-                      <div style={{width:'50%'}}>
+                      <div style={{width:'70%',position:"absolute",zIndex:100,height:"220px",padding:"10px",overflow:"auto"}}>
                       {item.map(i => (
-                        <div className="card mb-3" key={i.id} style={{color:'black'}}>
+                        <div className="card shadow" key={i.id} style={{color:'black'}}>
                         <div className="row ">
                           <div className="col-md-4">
                             <Link to={'/product/' + this.toSlug(i.name + "." + i.id) + '.html'}><img src={i.img} className="img-fluid" /></Link>

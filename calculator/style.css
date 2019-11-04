@@ -1,53 +1,54 @@
-body{
-	font-family: Arial;
-	font-style: 22px;
-	color: #000;
-	background-color: #c7dbe4;
-	box-sizing: border-box;
-
+table{
+	width: 310px;
+	margin: 120px auto;
+	background: linear-gradient(blue,#a92e31);
+	border: none;
+	border-radius: 10px;
+	padding: 0px 20px 20px;
 }
 
-.calculator{
-	margin: auto;
-	margin-top: 50px;
-	width: 280px;
-	height: 360px;
-	border: 1px solid red;
-
-
-}
-
-.br{
-	clear: both;
-}
-
-.button{
-	margin: 5px;
-	padding: 10px;
-	float: left;
-	text-align: center;
-	background-color: #57686f;
+.heading{
 	color: white;
-	width: 40px;
-	transition: all 0.5s;
-
-
+	font-size: 130%;
+	text-align: center;
 }
 
-.button:hover{
-	background-color: white;
-	color: red;
+#input,#answer{
+	width: 260px;
+	height: 50px;
+	font-size: 210%;
+	text-align: right;
+	border:none;
 }
 
-.kq{
-	width: 100%;
+#input{
+	border-radius: 5px 5px 0px 0px;
+	color: #1e1e1e;
 }
-.man_hinh{
-	margin: 10px 5px 10px 5px;
-    height: 30px;
-    width: 268px;
-    text-align: right;
-    outline: none;
-    border: 1px solid #333;
-    
+
+#answer{
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 2px 2px 2px black;
 }
+
+input[type=button]{
+	height: 60px;
+	width: 60px;
+	font-size: 130%;
+	color: blue;
+	background: white;
+	margin: 1px;
+	margin-top: 5px;
+	border-radius: 8px;
+	border: none;
+}
+
+input[type=button]:hover{
+	background: grey;
+	cursor:pointer;
+}
+
+body{
+	background:grey
+}
+
