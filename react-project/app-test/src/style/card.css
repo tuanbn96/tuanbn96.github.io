@@ -1,0 +1,19 @@
+.card{
+    overflow: hidden;
+    transition: all 1s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-img-top:hover{
+    transition: all 1s;
+    transform: scale(0.9);
+}
+.ttl{
+    width: 100%;
+    margin: 0 0 1.25% 5%;
+    padding: 20px 0 0 4.49%;
+    background: url('https://cont-daidokolog.pal-system.co.jp/system/special/oyatsu_aki/pc/img/h2_bk.png') top left no-repeat;
+
+}
