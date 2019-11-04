@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import {CartContext} from '../contexxs/cart';
-import axios from 'axios';
+
 import data from '../dataconfig';
 import {Link} from 'react-router-dom';
 import '../style/card.css'
