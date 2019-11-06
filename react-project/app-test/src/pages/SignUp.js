@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import '../style/signup.css'
 export default class SignUp extends Component {
@@ -42,7 +42,7 @@ export default class SignUp extends Component {
         const {name,phone} = this.state;
         return (
             <div>
-                <Nav />
+                <Navb />
                 <div className="container" style={{marginTop:'2rem',paddingTop:'2rem'}} >
                     <div className="row">
                         <div className="login-signup col-sm-12 col-md-6" style={{padding:"1rem"}}>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 
 export default class Erro extends Component {
     render() {
         return (
             <div>
-                <Nav />
+                <Navb />
                 <div className="d-flex justify-content-center align-items-center"  style={{height:'50vh'}}>
                     <h1 className="mr-3 pr-3 align-top border-right inline-block align-content-center">404</h1>
                     <div className="inline-block align-middle">

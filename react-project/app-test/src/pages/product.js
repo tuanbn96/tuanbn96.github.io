@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import { useParams } from 'react-router-dom';
 import data from '../dataconfig';
@@ -18,7 +18,7 @@ export default function Product() {
     return (
         <div>
             <div>
-                <Nav />
+                <Navb />
                 <div className="container" >
                     <img src={'http://banhmihanoithaohien.com/upload/hinhanh/quangcao-1-7470.png'} style={{maxWidth:"100%"}}></img>
                     <nav aria-label="breadcrumb">

@@ -21,7 +21,7 @@ export default class Introduce extends Component {
               </div>
             </div>
             <div className="row no-gutters">
-              <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{backgroundImage: 'url("http://greatbanhmi.vn/resources/uploaded/GreatBanhMi/Files/Common/about-great-banh-mi.png")'}} />
+              <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{backgroundImage: 'url("https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/46491572_732331053790637_2254411935485263872_n.jpg?_nc_cat=108&_nc_oc=AQm7f3H6OLmIArguDLH-r9L-JM_PEmqTqhiX4aIWUeULvqIBQ9S6cdwIN_Nc7D4w3LI&_nc_ht=scontent.fhan2-3.fna&oh=d520f6ef2b57610bbc16f26b1641f6d9&oe=5E581872")'}} />
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
                 <h2 style={{color: 'tomato'}}> Có Thể Bạn Đã Biết</h2>
                 <p>Vào tháng 3 năm 2012, chuyên trang du lịch của The Guardian, một tờ báo nổi tiếng của Vương quốc Anh, đã bình chọn bánh mì Việt Nam thuộc 10 món ăn đường phố ngon và hấp dẫn du khách nhất thế giới.</p>

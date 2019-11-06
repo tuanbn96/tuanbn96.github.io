@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import '../style/contact.css';
 
@@ -7,7 +7,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div>
-                <Nav />
+                <Navb />
                 <div className="container animated fadeIn">
                 <div className="row">
                   <div style={{width:'100%'}}><h1 className="header-title" style={{textAlign:'center'}}> Contact </h1></div>

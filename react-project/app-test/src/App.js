@@ -7,10 +7,10 @@ import Erro from './pages/Errro';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import ChinhSach from './pages/ChinhSach';
-import {CartProvider} from './contexxs/cart';
+
 import Product from './pages/product';
 
-import {Route, Switch ,useParams} from 'react-router-dom';
+import {Route, Switch ,BrowserRouter as Router} from 'react-router-dom';
 
 
 import './style/App.css';
@@ -18,8 +18,7 @@ import './style/App.css';
 function App() {
   return (
    
-    <CartProvider>
-     
+   <Router >
      <Switch>
           <Route exact path="/">
             <Home />
@@ -49,9 +48,9 @@ function App() {
             <Erro />
           </Route>
       </Switch>
+    </Router>
       
-    </CartProvider>
-    
+   
   );
 }
 

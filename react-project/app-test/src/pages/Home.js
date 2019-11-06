@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Banner from '../components/Banner';
 import Service from '../components/Service';
 import Introduce from '../components/Introduce';
@@ -12,7 +12,7 @@ import '../style/App.css';
 function Home() {
   return (
     <div>
-     <Nav />
+     <Navb />
      <Banner />
      <Service />
      <Introduce />

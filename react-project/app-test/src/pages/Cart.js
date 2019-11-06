@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav';
+import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import {CartContext} from '../contexxs/cart';
 
@@ -11,7 +11,7 @@ export default class Cart extends Component {
            };
         return (
             <div>
-                <Nav />
+                <Navb />
                 <div className="container" >
                     <img src={'http://banhmihanoithaohien.com/upload/hinhanh/quangcao-1-7470.png'} style={{maxWidth:"100%"}}></img>
                     <nav aria-label="breadcrumb">
