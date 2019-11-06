@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/css/main.9957bef7.chunk.css",
-    "main.js": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/main.c3fd2029.chunk.js",
-    "main.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/main.c3fd2029.chunk.js.map",
-    "runtime-main.js": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/runtime-main.c49edb5e.js",
-    "runtime-main.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/runtime-main.c49edb5e.js.map",
-    "static/js/2.57d2cef3.chunk.js": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/2.57d2cef3.chunk.js",
-    "static/js/2.57d2cef3.chunk.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/js/2.57d2cef3.chunk.js.map",
-    "index.html": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/index.html",
-    "precache-manifest.da4c0ec5be4bd0a1ed3403bf4a009e80.js": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/precache-manifest.da4c0ec5be4bd0a1ed3403bf4a009e80.js",
-    "service-worker.js": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/service-worker.js",
-    "static/css/main.9957bef7.chunk.css.map": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/css/main.9957bef7.chunk.css.map",
-    "static/media/logo.png": "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/static/media/logo.5bcf25fd.png"
+    "main.css": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/css/main.9957bef7.chunk.css",
+    "main.js": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/main.a2c9fbf2.chunk.js",
+    "main.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/main.a2c9fbf2.chunk.js.map",
+    "runtime-main.js": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/runtime-main.e68a323f.js",
+    "runtime-main.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/runtime-main.e68a323f.js.map",
+    "static/js/2.57d2cef3.chunk.js": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/2.57d2cef3.chunk.js",
+    "static/js/2.57d2cef3.chunk.js.map": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/js/2.57d2cef3.chunk.js.map",
+    "index.html": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/index.html",
+    "precache-manifest.caaffe02d473c4ee2d361064d9f24e55.js": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/precache-manifest.caaffe02d473c4ee2d361064d9f24e55.js",
+    "service-worker.js": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/service-worker.js",
+    "static/css/main.9957bef7.chunk.css.map": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/css/main.9957bef7.chunk.css.map",
+    "static/media/logo.png": "/tuanbn96/tuanbn96.github.io/tree/master/build-app/static/media/logo.5bcf25fd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c49edb5e.js",
+    "static/js/runtime-main.e68a323f.js",
     "static/js/2.57d2cef3.chunk.js",
     "static/css/main.9957bef7.chunk.css",
-    "static/js/main.c3fd2029.chunk.js"
+    "static/js/main.a2c9fbf2.chunk.js"
   ]
 }

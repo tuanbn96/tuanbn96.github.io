@@ -2,7 +2,7 @@
   "name": "app-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test",
+  "homepage": "https://github.com/tuanbn96/tuanbn96.github.io/tree/master/build-app",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",

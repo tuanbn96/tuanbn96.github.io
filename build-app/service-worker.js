@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/precache-manifest.da4c0ec5be4bd0a1ed3403bf4a009e80.js"
+  "/tuanbn96/tuanbn96.github.io/tree/master/build-app/precache-manifest.caaffe02d473c4ee2d361064d9f24e55.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/tuanbn96/tuanbn96.github.io/tree/master/react-project/app-test/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/tuanbn96/tuanbn96.github.io/tree/master/build-app/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
