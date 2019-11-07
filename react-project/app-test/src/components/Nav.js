@@ -1,4 +1,4 @@
-import React, { Component,useState } from 'react'
+import React, {useState } from 'react'
 import {
   Link,NavLink
 } from "react-router-dom";
@@ -6,7 +6,7 @@ import '../style/menu.css';
 import logo from '../static/img/logo.png';
 
 import { Button, Modal,  ModalBody,Form, FormGroup, Label, Input,ModalFooter} from 'reactstrap';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
+
 
 export default function Navb(props) {
   

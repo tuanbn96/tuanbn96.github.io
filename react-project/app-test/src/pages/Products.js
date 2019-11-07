@@ -63,7 +63,7 @@ export default class Products extends Component {
             <div>
                 <Navb />
                 <div className="container" >
-                    <img src={'http://banhmihanoithaohien.com/upload/hinhanh/quangcao-1-7470.png'} style={{maxWidth:"100%"}}></img>
+                    <img src='http://banhmihanoithaohien.com/upload/hinhanh/quangcao-1-7470.png' style={{maxWidth:"100%"}}></img>
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item " aria-current="page">Home</li>
@@ -73,8 +73,12 @@ export default class Products extends Component {
                 </div>
                 
                 <div className='container' >
-                
+                <div className="title-section text-center mb-md-5 mb-4">
+                            <h3 className="w3ls-title mb-3">Our <span>Menu</span></h3>
+                            
+                        </div>
                     <div className='row'>
+                    
                         <div className='col-lg-9 col-xl-9 col-md-9 col-sm-12'>
                        
                             <div className='row'>

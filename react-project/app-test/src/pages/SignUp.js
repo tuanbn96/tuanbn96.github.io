@@ -96,7 +96,7 @@ export default class SignUp extends Component {
                                         <div className="row">
                                         <div className="col-sm-12 mobile-pull">
                                         <article role="login">
-                                        <h3 className="text-center"><i class="far fa-address-card"></i>Membership Card</h3>
+                                        <h3 className="text-center"><i className="far fa-address-card"></i>Membership Card</h3>
                                         <p >Name:{name} </p >
                                         <p >Card Number:{phone}</p >
                                         <hr/>

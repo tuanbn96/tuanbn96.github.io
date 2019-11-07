@@ -97,11 +97,11 @@ export default class Banner extends Component {
                         <div className="card shadow" key={i.id} style={{color:'black'}}>
                         <div className="row ">
                           <div className="col-md-4">
-                            <Link to={'/product/' + this.toSlug(i.name + "." + i.id) + '.html'}><img src={i.img} className="img-fluid" /></Link>
+                            <Link to={'/Ctproduct/' + this.toSlug(i.name + "." + i.id) + '.html'}><img src={i.img} className="img-fluid" /></Link>
                           </div>
                           <div className="col-md-8">
                             <div >
-                            <Link to={'/product/' +this.toSlug(i.name + "." + i.id) + '.html'}><h5 >{i.name}</h5></Link>
+                            <Link to={'/Ctproduct/' +this.toSlug(i.name + "." + i.id) + '.html'}><h5 >{i.name}</h5></Link>
                               <p >{i.price} vnđ</p>
                               
                             </div>

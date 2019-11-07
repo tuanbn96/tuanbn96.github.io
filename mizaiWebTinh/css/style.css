@@ -1,10 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- Reset Code --*/
+
 body {
     padding: 0;
     margin: 0;
@@ -395,7 +389,7 @@ li>a:only-child:after {
 
     nav ul ul ul li {
         position: static;
-        /* has to be the same number as the "width" of "nav ul ul li" */
+        
     }
 
     nav .menu li {
@@ -425,10 +419,6 @@ ul.menu::-webkit-scrollbar-thumb {
     background-color: rgb(212, 212, 212);
 }
 
-/* //navigation scroll */
-
-/* //navigation */
-/* logo */
 a.logo {
     color: #3a3939;
     font-size: 40px;
@@ -447,9 +437,6 @@ a.logo span {
     top: -2px;
 }
 
-/* //logo */
-
-/* download button */
 .dwn-button span {
     font-size: 33px;
     color: #3a3939;
@@ -495,10 +482,6 @@ button.submit {
     -ms-transition: 0.5s all;
 }
 
-/* //modal */
-/* //header 2 */
-
-/* banner */
 .baneer-w3ls {
     background: linear-gradient(to bottom, #fff, #fbfbfb);
     z-index: 1;
@@ -585,9 +568,6 @@ a.button-w3ls:hover {
     -moz-background-size: cover;
 }
 
-/* //right side slider */
-
-/* css clider */
 
 .cover-top-center-9 {
     min-height: 100vh;
@@ -597,9 +577,6 @@ a.button-w3ls:hover {
     z-index: 99;
 }
 
-/* //banner */
-
-/* about */
 .about {
     background: url(../images/bg1.jpg) no-repeat left;
     background-size: cover;

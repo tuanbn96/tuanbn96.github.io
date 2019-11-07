@@ -9,7 +9,7 @@ import SignUp from './pages/SignUp';
 import ChinhSach from './pages/ChinhSach';
 
 import Product from './pages/product';
-
+import {CartProvider} from './contexxs/cart';
 import {Route, Switch ,BrowserRouter as Router} from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ import './style/App.css';
 
 function App() {
   return (
-   
+    <CartProvider>
    <Router >
      <Switch>
           <Route exact path="/">
@@ -49,7 +49,7 @@ function App() {
           </Route>
       </Switch>
     </Router>
-      
+      </CartProvider>
    
   );
 }
