@@ -30,7 +30,7 @@ export default function Navb(props) {
         </div>
         <nav className="navbar navbar-expand-lg sticky-top " style={{Color: '#f9c86e'}}>
           <div className="container">
-            <Link className="navbar-brand" to='/'>
+            <Link className="navbar-brand" to='/react-project2'>
             <img src={logo} width="50" height="50" alt="" />
               TF-Food</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@ export default function Navb(props) {
             <div className="collapse navbar-collapse " id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/">Trang chủ</NavLink>
+                <NavLink className="nav-link" to="/react-project2">Trang chủ</NavLink>
                 </li>
                 <li className="nav-item dropdown">
                 <NavLink className="nav-link" to="/Products">Menu</NavLink>

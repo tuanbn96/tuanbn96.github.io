@@ -20,7 +20,7 @@ function App() {
     <CartProvider>
    <Router >
      <Switch>
-          <Route exact path="/">
+          <Route exact path="/react-project2">
             <Home />
           </Route>
           <Route path="/Products">

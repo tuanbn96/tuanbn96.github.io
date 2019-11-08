@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import {CartContext} from '../contexxs/cart';
-
+import axios from 'axios';
 import data from '../dataconfig';
 import {Link} from 'react-router-dom';
 import '../style/card.css'
@@ -14,14 +14,14 @@ export default class Products extends Component {
             product :data
         }
     }
-    // componentDidMount(){
-    //     axios.get("https://l40jy.sse.codesandbox.io/product").then(res => {
-    //         this.setState({
-    //             product:res.data
-    //         });
-    //     });
+    componentDidMount(){
+        axios.get("https://api-app-banhmi.herokuapp.com/products").then(res => {
+            this.setState({
+                product:res.data
+            });
+        });
         
-    // }
+    }
 
      toSlug = (str) =>
     {
@@ -62,7 +62,7 @@ export default class Products extends Component {
         return (
             <div>
                 <Navb />
-                <div className="container" >
+                <div className="container-fluid" >
                     <img src='http://banhmihanoithaohien.com/upload/hinhanh/quangcao-1-7470.png' style={{maxWidth:"100%"}}></img>
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
@@ -72,7 +72,7 @@ export default class Products extends Component {
                     </nav>
                 </div>
                 
-                <div className='container' >
+                <div className='container-fluid' >
                 <div className="title-section text-center mb-md-5 mb-4">
                             <h3 className="w3ls-title mb-3">Our <span>Menu</span></h3>
                             

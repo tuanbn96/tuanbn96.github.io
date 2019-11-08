@@ -1,0 +1,43 @@
+{
+    "halo":[
+        {
+            "id":1,
+            "name":"French Burger -",
+            "price":"$22",
+            "img":"images/blog1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Veg Muffin -",
+            "price":"$16",
+            "img":"images/blog2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Brioche - ",
+            "price":"$18",
+            "img":"images/blog3.jpg"
+        },
+        {
+            "id":4,
+            "name":"Cheese Burger - ",
+            "price":"$20",
+            "img":"images/g1.jpg"
+        },
+        {
+            "id":5,
+            "name":"Chicken Burger - ",
+            "price":"$21",
+            "img":"images/g2.jpg"
+        },
+        {
+            "id":6,
+            "name":"Vega Burger - ",
+            "price":"$27",
+            "img":"images/g3.jpg"
+        }
+    ],
+    "cart":[
+        
+    ]
+}
