@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navb from '../components/Nav';
 import Footer from '../components/Footer';
 import {CartContext} from '../contexxs/cart';
+import { FaTrashAlt } from "react-icons/fa";
 
 export default class Cart extends Component {
     render() {
@@ -83,9 +84,12 @@ export default class Cart extends Component {
                                                 <button className="btn-num-product-down color1 flex-c-m size7 bg8 eff2" onClick={() => gProduct(item)}>
                                                     <i className="fs-12 fa fa-minus" aria-hidden="true" />
                                                     </button>
-                                                    <button className="btn-num-product-up color1 flex-c-m size7 bg8 eff2" onClick={() => tProduct(item)}>
+                                                    <button className="btn-num-product-up color1 flex-c-m size7 bg8 eff2"  onClick={() => tProduct(item)}>
                                                     <i className="fs-12 fa fa-plus" aria-hidden="true" />
                                                     </button>
+                                                    <span style={{paddingRight:"1rem"}}> </span>
+                                                    {/*<button onClick={() => del(item)}> <FaTrashAlt/></button>*/}
+                                                   
                                                 </p>
                                                 
                                                 <p>Đơn giá: {item.price*item.amount} vnđ</p><hr/>

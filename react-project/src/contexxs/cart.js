@@ -11,7 +11,8 @@ export class CartProvider extends Component {
 
         this.addToCart = this.addToCart.bind(this);
         this.gProduct = this.gProduct.bind(this);
-        this.tProduct = this.tProduct.bind(this)
+        this.tProduct = this.tProduct.bind(this);
+        this.del = this.del.bind(this);
     }
     addToCart(product){
         this.setState({
@@ -28,9 +29,10 @@ export class CartProvider extends Component {
         
          
         this.setState({
-            product: newProducts
+            cartItem: newProducts
         })
     }
+    
     gProduct(item){
         let newProducts = this.state.cartItem;
        
@@ -42,7 +44,18 @@ export class CartProvider extends Component {
         }
         
         this.setState({
-            product: newProducts
+            cartItem: newProducts
+        })
+    }
+    del(item){
+        let newProducts = this.state.cartItem;
+        for(let i=0;i<newProducts.length;i++){
+            if(newProducts[i] == item){
+                newProducts.splice(i,1);
+            }
+        }
+        this.setState({
+            cartItem:newProducts
         })
     }
     render(){
@@ -50,7 +63,8 @@ export class CartProvider extends Component {
             cartItem:this.state.cartItem,
             addToCart:this.addToCart,
             gProduct:this.gProduct,
-            tProduct:this.tProduct
+            tProduct:this.tProduct,
+            del:this.del
         }}>{this.props.children}</CartContext.Provider>
     }
 }
