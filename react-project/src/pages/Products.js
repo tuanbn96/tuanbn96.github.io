@@ -5,7 +5,8 @@ import {CartContext} from '../contexxs/cart';
 import axios from 'axios';
 import data from '../dataconfig';
 import {Link} from 'react-router-dom';
-import '../style/card.css'
+import '../style/card.css';
+
 
 export default class Products extends Component {
     constructor(props){
@@ -126,19 +127,14 @@ export default class Products extends Component {
                                 </CartContext.Consumer>
                                 </div>
                                 <CartContext.Consumer>
-                                {({cartItem}) => (<div><p>Apply coupon:
-                                 
-                             
-                                 <input size="10" type="text" name="num-product1" />
-                                
-                                 </p>
+                                {({cartItem}) => (<div>
                                  <h4 style={{color:'tomato'}}>Thành tiền:{tong(cartItem)} vnđ</h4><br/></div>)}
-                                 
-                                            
                                 </CartContext.Consumer>
-                            
-                            <div style={{maxWidth:'100%',textAlign:'center',height:'3rem',backgroundColor:'#e5d417',color:'white',borderBottomLeftRadius:'10px',borderBottomRightRadius:'10px'}}>
-                               
+                                
+                                 
+                                <div style={{maxWidth:'100%',textAlign:'center',height:'3rem',color:'white',borderBottomLeftRadius:'10px',borderBottomRightRadius:'10px'}}>
+                                <Link className="btn btn-primary" to='/Cart' style={{margin:"auto",justifyContent:"center"}} role="button">Đặt hàng</Link>
+                                <hr/>
                                 
                             </div>
                         </div>
