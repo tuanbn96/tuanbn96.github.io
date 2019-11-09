@@ -64,14 +64,11 @@ export default function Navb(props) {
                         <Label for="examplePassword">Password</Label>
                         <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
                       </FormGroup>
-                      
-                      </Form>
                       <Button color="primary" onClick={toggle}>Login</Button>
-                    </ModalBody>
-                      
+                      </Form>
                      
-                      <ModalFooter></ModalFooter>
-                    
+                    </ModalBody>
+         
                   </Modal>
                 </li>
               </ul>
