@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Layout from '../component/layout';\nex;","map":{"version":3,"sources":["C:/Users/quank/Desktop/baitap/tuanbn96.github.io/halo-app-react/pages/index.js"],"names":["Layout","ex"],"mappings":"AAAA,OAAOA,MAAP,MAAmB,qBAAnB;AAEAC,EAAE","sourcesContent":["import Layout from '../component/layout';\r\n\r\nex\r\n\r\n\r\n"]},"metadata":{},"sourceType":"module"}
